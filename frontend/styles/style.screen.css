@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_main {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.image-div{
+    width: 40%;
+    background-color: #FFF;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_forms {
+    width: 60%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: linear-gradient(#1937FE, #4960F9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_forms h1{
+    text-align: center;
+    color: #87F0FF;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+    line-height: 1.5em;
+}
+
+.section_input {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.formulario {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join_input{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 16px;
+    color: #87F0FF;
+    margin-bottom: 5px;
+}
+
+.input {
+    border: none;
+    background-color: #FFF;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    width: 25%;
+    padding: 10px 36px;
+    background-color: #FFF;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #87F0FF;
+}
+
+.btn a {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1534FF;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: #FFF;
+}
+
+.btn_voltar {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.btn_voltar a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn_voltar a:hover {
+    color: #87F0FF;
+}
